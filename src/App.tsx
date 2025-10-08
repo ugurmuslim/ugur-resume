@@ -15,7 +15,8 @@ function App() {
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
   }, [isDark]);
 
-  const profileImage = '../public/assets/profile.jpeg';
+  const profileImage = 'https://raw.githubusercontent.com/ugurmuslim/ugur-resume/refs/heads/master/public/assets/profile.jpeg';
+  // const profileImage = '../public/assets/profile.jpeg';
 
   const skills = [
     'TypeScript',
@@ -121,7 +122,7 @@ function App() {
             <div className="relative w-40 h-40 mb-6 group">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-full blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
               <img
-                src={profileImage}
+                  src={profileImage}
                 alt="Profile"
                 className="relative w-40 h-40 rounded-full object-cover border-4 border-white dark:border-slate-700 shadow-2xl"
                 onError={(e) => {

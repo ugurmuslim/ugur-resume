@@ -15,7 +15,7 @@ function App() {
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
   }, [isDark]);
 
-  const profileImage =  '/ugur-resume/assets/profile.jpeg';
+  const profileImage = '../public/assets/profile.jpeg';
 
   const skills = [
     'TypeScript',

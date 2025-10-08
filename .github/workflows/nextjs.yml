@@ -34,10 +34,17 @@ jobs:
       - name: Build React app
         run: npm run build
 
+      - name: Verify build folder exists
+        run: |
+          if [ ! -d "./dist" ]; then
+            echo "Build folder 'dist' not found! Did npm run build succeed?"
+            exit 1
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build  # React build folder
+          path: ./dist
 
   deploy:
     needs: build

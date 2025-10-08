@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, MapPin, Briefcase, Code2, Award, Moon, Sun } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import profileImage from '../public/assets/profile.jpeg';
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -15,7 +16,7 @@ function App() {
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
   }, [isDark]);
 
-  const profileImage = '../public/assets/profile.jpeg';
+  // const profileImage = '../public/assets/profile.jpeg';
 
   const skills = [
     'TypeScript',
@@ -152,7 +153,7 @@ function App() {
                 Get in Touch
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/ugurmuslim"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`flex items-center gap-2 px-6 py-3 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5 ${

@@ -50,9 +50,8 @@ function App() {
       period: '2022 - 2024',
       description: 'Senior developer for Logistic company which operates with electrical bikes and logistic tools.',
       achievements: [
-        'Built custom Shopify apps serving 10+ merchants',
-        'Optimized database queries improving performance by 3x',
-        'Used complex shopify functions'
+        'Developed a scalable Carrier Service Shopify App using Node.js and TypeScript, and MongoDB in microservice architecture enhancing e-commerce shipping solutions.',
+        'Developed custom UIs library that increased developer productivity and code reuse',
       ]
     },
     {
@@ -61,8 +60,8 @@ function App() {
       period: '2020 - 2022',
       description: 'Full-stack development role working with various technologies including PHP, JavaScript, and AWS services. Contributed to multiple client projects across different industries.',
       achievements: [
-        'Delivered 20+ client projects on time and within budget',
-        'Implemented automated testing increasing code coverage to 85%',
+        'Engineered custom add-ons and plugins for e-commerce platforms, including Shopify, Odoo, Wix and BigCommerce, utilizing PHP and the Laravel framework to enhance platform functionality.',
+        'Developed both server-side and client-side components using HTML, CSS, and JavaScript, ensuring seamless user experiences across various projects.',
         'Collaborated with cross-functional teams across 3 time zones'
       ]
     },
@@ -72,9 +71,9 @@ function App() {
       period: '2020 - 2022',
       description: 'Full-stack development role working with various technologies including PHP, JavaScript, and AWS services. Contributed to multiple client projects across different industries.',
       achievements: [
-        'Delivered 20+ client projects on time and within budget',
+        'Developed a comprehensive e-commerce platform from the ground up using .NET Core, facilitating the trade of online gaming items',
         'Implemented automated testing increasing code coverage to 85%',
-        'Collaborated with cross-functional teams across 3 time zones'
+        'Integrated 10 distinct payment services, expanding customer payment options and enhancing transaction flexibility.'
       ]
     },
     {
@@ -83,9 +82,8 @@ function App() {
       period: '2018 - 2020',
       description: 'Full-stack development role working with various technologies including PHP, JavaScript, and AWS services. Contributed to multiple client projects across different industries.',
       achievements: [
-        'Delivered 20+ client projects on time and within budget',
-        'Implemented automated testing increasing code coverage to 85%',
-        'Collaborated with cross-functional teams across 3 time zones'
+        'Engineered a dynamic marketplace supporting over 600 cryptocurrency pairs, facilitating seamless trading operations.',
+        'Architected a high-performance platform utilizing the Laravel and NestJs frameworks, ensuring scalability and robustness to handle substantial user activity.',
       ]
     },
     {
@@ -94,9 +92,8 @@ function App() {
       period: '2018-2018',
       description: 'Full-stack development role working with various technologies including PHP, JavaScript, and AWS services. Contributed to multiple client projects across different industries.',
       achievements: [
-        'Delivered 20+ client projects on time and within budget',
+        'Developed blockchain solutions to address complex business challenges, enhancing operational efficiency and data security.',
         'Implemented automated testing increasing code coverage to 85%',
-        'Collaborated with cross-functional teams across 3 time zones'
       ]
     }
   ];
@@ -153,7 +150,7 @@ function App() {
                 Get in Touch
               </a>
               <a
-                href="hhttps://github.com/leougurm"
+                href="https://github.com/leougurm"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`flex items-center gap-2 px-6 py-3 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5 ${
